@@ -1,0 +1,28 @@
+{
+  "name": "custom-module",
+  "version": "0.1.0",
+  "description": "An example",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d build",
+   "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/punitg8/TryingModule.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/punitg8/TryingModule/issues"
+  },
+  "homepage": "https://github.com/punitg8/TryingModule#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "react": "^17.0.2"
+  }
+}
